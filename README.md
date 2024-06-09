@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 
 
-****Important Packages needed to be  installed ****
+**Important Packages needed to be  installed **
 npm install codemirror react-codemirror2
 
  npm i @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/fontawesome-svg-core
