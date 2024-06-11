@@ -58,3 +58,19 @@ body {
     border-bottom-left-radius: .5rem;
     overflow: hidden;
   }
+
+  .navbar{
+
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color:aqua;
+    text-align: center;
+    font-size: 6VH;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+  }
+  span:hover{
+
+color: red;
+  }

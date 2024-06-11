@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Editor from "./components/Editor";
 import React from "react";
-import useLocalStorage from "./hooks/useLocalStorage";
+import Navbar from "./components/Nav";
 
 function App() {
   const [html, setHtml] = useState("");
@@ -24,6 +24,7 @@ function App() {
 
   return (
     <React.StrictMode>
+      <Navbar/>
       <div className="pane top-pane">
         <Editor
           language="xml"
